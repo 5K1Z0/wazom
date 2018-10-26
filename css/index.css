@@ -105,3 +105,22 @@
 	height: 13px;
 	width: 13px;
 }
+
+
+
+#realisation{
+	height: 700px;
+	background:#fbfaf8;
+}
+.R-title{
+	margin-top: 80px;
+	font-size: 30px;
+	font-family:'Raleway', sans-serif ;
+	font-weight: 700
+}
+.R-para{
+	width:765px;
+	margin:auto;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+}
