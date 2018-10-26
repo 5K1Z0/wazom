@@ -1,0 +1,54 @@
+.textweb, .textdev, .textcustom, .textmarketing {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+.titldev, .textdev {
+    color: rgb(196, 169, 139)
+} 
+
+.linedev:after {
+    content: '';
+    width: 70px;
+    height: 2px;
+    background: rgb(196, 169, 139);
+    position: absolute;
+    right: 50%;
+    margin-right: -35px;
+}
+
+.services {
+    height: 373px;
+}
+
+.text-center, .imgdev {
+    margin: auto;
+}
+
+.titlservice h4{
+    margin-top: 30px;
+    font-family: 'Raleway', sans-serif;
+}
+.line:after {
+    content: '';
+    width: 70px;
+    height: 2px;
+    background: grey;
+    position: absolute;
+    right: 50%;
+    margin-right: -35px;
+
+}
+
+.bloc2 {
+    top: 5px;
+    
+}
+
+.bloc3 {
+    top: 3px;
+}
+
+.bloc4 {
+    top: 6.5px;
+}
