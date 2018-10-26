@@ -163,3 +163,49 @@
     top: 6.5px;
 }
 
+/* projet */
+
+.titlprojet {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	font-size: 30px;
+	margin-bottom: 3%;
+}
+
+.textprojet {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+	margin-bottom: 4%;
+}
+
+.btnprojet {
+	margin-bottom: 4%;
+}
+
+.btn-projet {
+	color: #736357 !important;
+	background-color: transparent;
+	background-image: none;
+	border-color: #736357 !important;
+}
+
+.textcase {
+	background: #fbfaf8;
+	height: 100px;
+	width: 370px;
+	margin-bottom: 10%;
+}
+
+.textcase h4 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+	margin: auto;
+}
+
+.textcase p {
+	font-family: 'Raleway', sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+}
