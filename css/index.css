@@ -107,26 +107,6 @@
 }
 
 
-
-#realisation{
-	height: 700px;
-	background:red;
-}
-.R-title{
-	margin-top: 80px;
-	font-size: 30px;
-	font-family:'Raleway', sans-serif ;
-	font-weight: 700;
-	margin-bottom: 25px;
-}
-.R-para{
-	width:765px;
-	margin:auto;
-	font-family: 'Montserrat', sans-serif;
-	font-size: 16px;
-	color:#8c8c8c;
-}
-
 /* section services */
 
 .textweb, .textdev, .textcustom, .textmarketing {
@@ -184,4 +164,42 @@
     top: 6.5px;
 }
 
->>>>>>> 097889ef7dfa92c0fdb6848e4c128184da6d0e0b
+
+/* Section realisation */
+#realisation{
+	height: 700px;
+	ackground:red;
+	background:#fbfaf8;
+}
+.R-title{
+	margin-top: 80px;
+	font-size: 30px;
+	font-family:'Raleway', sans-serif ;
+	font-weight: 700;
+	margin-bottom: 25px;
+}
+.R-para{
+	width:765px;
+	margin:auto;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	color:#8c8c8c;
+}
+.caroussel{
+	position: relative;
+	margin-top: 40px;
+}
+.caroussel .picture1{
+	position:absolute;
+	left:0;
+	top:120px;
+}
+.caroussel .picture2{
+	position: absolute;
+	right:0;
+	top:120px;
+}
+.caroussel .picture3{
+	position: absolute;
+	margin-left: -395px;
+}
