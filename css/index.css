@@ -88,7 +88,7 @@
 
 
 .check{
-	margin-top: 325px;
+	margin-top: 325px !important;
 }
 .check .round{
 	height: 10px;
@@ -105,6 +105,7 @@
 	height: 13px;
 	width: 13px;
 }
+
 
 /* section services */
 
@@ -161,6 +162,73 @@
 
 .bloc4 {
     top: 6.5px;
+}
+
+/* Section realisation */
+#realisation{
+	height: 700px;
+	ackground:red;
+	background:#fbfaf8;
+}
+.R-title{
+	margin-top: 80px;
+	font-size: 30px;
+	font-family:'Raleway', sans-serif ;
+	font-weight: 700;
+	margin-bottom: 25px;
+}
+.R-para{
+	width:765px;
+	margin:auto;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	color:#8c8c8c;
+}
+.caroussel{
+	position: relative;
+	margin-top: 40px;
+}
+.caroussel .picture1{
+	position:absolute;
+	left:0;
+	top:120px;
+}
+.caroussel .picture2{
+	position: absolute;
+	right:0;
+	top:120px;
+}
+.caroussel .picture3{
+	position: absolute;
+	margin-left: -395px;
+}
+
+/* Section contact */
+#contact{
+	height: 155px;
+	background: #382820;
+	position: relative;
+}
+#contact .C-title1{
+	margin-top: 50px;
+	color: #fff;
+	font-family:'Raleway', sans-serif ;
+	font-weight: 300;
+	font-size: 28px;
+}
+#contact .C-title1 span{
+	color:#c7b299;
+}
+#contact .C-title2{
+	color: #615855;
+	font-family:'Montserrat', sans-serif ;
+	font-weight: 300;
+	font-size: 18px;
+}
+.btn-waz3:after{
+	content:'';
+	width:191px;
+	margin-left:-95px;
 }
 
 /* projet */
