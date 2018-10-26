@@ -1,0 +1,165 @@
+
+
+#header{
+	height: 1025px;
+	background-image: url('../img/background.png');
+}
+#navbar{
+	height: 140px;
+	ackground:red;
+	width:100%;
+	position: relative;
+}
+#navbar img{
+	position: absolute;
+	width:185px;
+	height: 55px;
+	top:40px;
+}
+#navbar nav{
+	position: absolute;
+	right:0;
+	top:60px;
+}
+#navbar nav .navbar-ul .navbar-li{
+	list-style:none;
+	display:inline;
+	padding: 0 15px;
+}
+#navbar nav .navbar-ul .navbar-li a{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	text-decoration: none;
+	color: #fff;
+}
+#navbar nav .navbar-ul .navbar-li a:hover{
+	color: #998675;
+}
+#navbar nav .navbar-ul .navbar-li a img{
+	width:25px;
+	height:25px;
+	top:0;
+}
+
+
+.titleH2{
+	margin-top: 250px;
+	color: #fff;
+	font-size: 36px;
+	font-family: 'Raleway', sans-serif;
+
+}
+.titleH1{
+	color: #fff;
+	font-size: 52px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+}
+.para{
+	color:#fff;
+	width:565px;
+	margin:auto;
+}
+
+
+.btn-waz{
+	margin-top: 50px;
+	text-transform: uppercase;
+	background: #998675;
+	color: #fff;
+	font-size: 14px;
+	font-weight: 700;
+	border:none;
+	padding: 10px 40px;
+	border-radius: 5px;
+}
+.btn-waz:after{
+	content:'';
+	background:#736357;
+	width:170px;
+	left:50%;
+	margin-left:-85px;
+	display:-webkit-box;
+	height: 4px;
+	border-radius: 0 5px;
+	position: relative;
+	top:10px;
+}
+
+
+.check{
+	margin-top: 325px;
+}
+.check .round{
+	height: 10px;
+	width:10px;
+	border-radius:50px;
+	background: #969493;
+	border:none;
+	margin: 0 5px;
+	cursor: pointer;
+}
+.check .round:nth-child(2){
+	background:transparent;
+	border:1px solid #d3c1ad;
+	height: 13px;
+	width: 13px;
+}
+
+/* section services */
+
+.textweb, .textdev, .textcustom, .textmarketing {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+.titldev, .textdev {
+    color: rgb(196, 169, 139)
+} 
+
+.linedev:after {
+    content: '';
+    width: 70px;
+    height: 2px;
+    background: rgb(196, 169, 139);
+    position: absolute;
+    right: 50%;
+    margin-right: -35px;
+}
+
+.services {
+    height: 373px;
+}
+
+.text-center, .imgdev {
+    margin: auto;
+}
+
+.titlservice h4{
+    margin-top: 30px;
+    font-family: 'Raleway', sans-serif;
+}
+.line:after {
+    content: '';
+    width: 70px;
+    height: 2px;
+    background: grey;
+    position: absolute;
+    right: 50%;
+    margin-right: -35px;
+
+}
+
+.bloc2 {
+    top: 5px;
+    
+}
+
+.bloc3 {
+    top: 3px;
+}
+
+.bloc4 {
+    top: 6.5px;
+}
+
